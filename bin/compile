@@ -22,4 +22,8 @@ for entry in ${CACHE_DIR}/*
 do
   echo "$entry"
 done
-find . -name google-credentials.json
+
+echo $(ls -LR)
+echo $(find . -name google-credentials.json)
+
+
