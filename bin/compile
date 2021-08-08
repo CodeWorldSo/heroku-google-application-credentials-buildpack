@@ -38,3 +38,18 @@ do
         echo $file
     fi
 done
+
+for file in /build/*
+do
+    if [[ -f $file ]]; then
+        #copy stuff ....
+        echo $file
+    fi
+done
+for file in /exec/*
+do
+    if [[ -f $file ]]; then
+        #copy stuff ....
+        echo $file
+    fi
+done
